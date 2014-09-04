@@ -1,0 +1,39 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title= locals.title + ': ' + page.title
+    link(rel='stylesheet',href='http://yui.yahooapis.com/pure/0.5.0/pure-min.css')
+    link(rel='stylesheet',href='/styles/styles.css')
+  body
+
+    .github-fork-ribbon-wrapper.right
+      .github-fork-ribbon
+        a(href='https://github.com/SlugCam') Fork me on GitHub
+
+    .pure-g
+      header.pure-u-1
+        h1 SlugCam
+        .logo
+        p Solar Powered Wireless Tracking Cameras
+      nav.pure-u-1
+        ul
+          -var navitems = _.filter(contents, function (x) { 
+          -  return x.metadata && x.metadata.inNav;
+          -})
+          for item in navitems
+            li
+              a(href=item.url)=item.title
+
+      .content-row.pure-u-1
+        .content
+          block content
+
+
+      footer.pure-u-1
+        p 
+          | A project at the University of California, Santa Cruz
+          br
+          | Color Scheme is 
+          a(href='http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside')
+            | Atelier Lakeside

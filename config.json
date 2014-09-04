@@ -4,5 +4,8 @@
   },
   "plugins": [
       "wintersmith-sass"
-  ]
+  ],
+  "require": {
+      "_": "underscore"
+  }
 }

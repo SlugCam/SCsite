@@ -1,6 +1,7 @@
 ---
 title: Home
 template: index.jade
+inNav: true
 ---
 
 
