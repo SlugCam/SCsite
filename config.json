@@ -6,6 +6,8 @@
       "wintersmith-sass"
   ],
   "require": {
-      "_": "underscore"
+      "_": "underscore",
+      "moment": "moment",
+      "SCsite": "./SCsite_module"
   }
 }

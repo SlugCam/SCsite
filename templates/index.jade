@@ -6,9 +6,12 @@ block content
 
   h3 News
   - var items = _.sortBy(contents['news'], function (item) { return -item.date })
-  each item in items
+  .news-wrapper
+      each item in items
 
-    h4=item.title
-    date=item.date
-    !=item.html
+        .news-header
+            span.title!=item.title + ' &middot; '
+            date!=moment.utc(item.date).format('MMMM D, YYYY')
+        .news-body
+            !=item.html
 

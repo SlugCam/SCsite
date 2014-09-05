@@ -17,13 +17,11 @@ html(lang='en')
         .logo
         p Solar Powered Wireless Tracking Cameras
       nav.pure-u-1
-        ul
-          -var navitems = _.filter(contents, function (x) { 
-          -  return x.metadata && x.metadata.inNav;
-          -})
-          for item in navitems
-            li
-              a(href=item.url)=item.title
+        .nav-wrapper
+          ul
+            for item in SCsite.getNavPageList(contents)
+              li
+                a(href=item.url)=item.title
 
       .content-row.pure-u-1
         .content

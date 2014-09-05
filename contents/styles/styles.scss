@@ -1,4 +1,3 @@
-@import 'github-ribbon';
 // Google Fonts
 @import url(http://fonts.googleapis.com/css?family=Kreon:400,700|Open+Sans);
 //<link href='http://fonts.googleapis.com/css?family=Kreon:400,700|Open+Sans'
@@ -6,35 +5,8 @@
 // font-family: 'Kreon', serif;
 //font-family: 'Open Sans', sans-serif;
 
-// scheme: "Atelier Lakeside"
-// author: "Bram de Haan
-// (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside/)"
-// Released under MIT license
-$base00: hsl(200, 15%, 10%);  /* #161b1d; */
-$base01: hsl(200, 20%, 15%);  /* #1f292e; */
-$base02: hsl(200, 21%, 40%);  /* #516d7b; */
-$base03: hsl(200, 22%, 45%);  /* #5a7b8c; */
-$base04: hsl(200, 24%, 55%);  /* #7195a8; */
-$base05: hsl(200, 26%, 60%);  /* #7ea2b4; */
-$base06: hsl(200, 75%, 86%);  /* #c1e4f6; */
-$base07: hsl(200, 100%, 96%); /* #ebf8ff; */
-$base08: hsl(335, 65%, 50%);  /* #d22d72; */
-$base09: hsl(30, 60%, 36%);   /* #935c25; */
-$base0a: hsl(60, 80%, 30%);   /* #8a8a0f; */
-$base0b: hsl(100, 41%, 39%);  /* #568c3b; */
-$base0c: hsl(160, 52%, 37%);  /* #2d8f6f; */
-$base0d: hsl(200, 65%, 41%);  /* #257fad; */
-$base0e: hsl(240, 35%, 53%);  /* #5d5db1; */
-$base0f: hsl(290, 65%, 50%);  /* #b72dd2; */
-
-$red:     $base08;
-$orange:  $base09;
-$yellow:  $base0a;
-$green:   $base0b;
-$cyan:    $base0c;
-$blue:    $base0d;
-$violet:  $base0e;
-$magenta: $base0f;
+@import 'colors';
+@import 'github-ribbon';
 
 a {
   color: $blue;
@@ -88,6 +60,51 @@ header {
   }
 }
 
+nav {
+  background-color: $base06;
+  border-bottom: 1px solid $base04;
+
+  a {
+    display: inline-block;
+    width: 8em;
+    color: $yellow;
+    text-decoration: none;
+  }
+  a:visited {
+    color: $yellow;
+  }
+  a:hover {
+    color: $yellow;
+    text-decoration: underline;
+    //font-weight: bold;
+    //color: $magenta;
+    //background-color: $cyan;
+  }
+
+  .nav-wrapper {
+    @extend %centered-column;
+    text-align: center;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    list-style-type: none;
+    li {
+      display: inline-block;
+      margin: 0;
+      padding: .2em 0;
+      //border-right: 1px solid $yellow;
+      //float: left;
+    }
+    li:first-child {
+      //border-left: 1px solid $yellow;
+
+    }
+  }
+}
+
 h3 {
   text-align: center;
 }
@@ -95,9 +112,12 @@ h3 {
   background-color: $base07;
 }
 
-.content {
+%centered-column {
   max-width: 40em;
   margin: auto;
+}
+.content {
+  @extend %centered-column;
   color: $base02;
 }
 footer {
@@ -105,4 +125,34 @@ footer {
   text-align: center;
   color: $base06;
   background-color: $base01;
+}
+
+.news-header {
+  padding-top: 1em;
+  border-top: 1px dotted $base06;
+  margin-bottom: .1em;
+  padding-bottom: 0;
+
+  .title {
+    font-weight: bold;
+    font-family: 'Kreon', serif;
+  }
+  date {
+    font-style: italic;
+    color: $base03;
+    font-size: .85em;
+  }
+  &:first-child {
+    //    border: 0;
+    margin-top: -1em;
+  }
+}
+
+.news-body {
+
+  margin-left: 2em;
+  p {
+    margin-top: 0;
+  }
+
 }
