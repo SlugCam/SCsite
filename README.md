@@ -15,6 +15,13 @@ also will determine their ordering in the navbar). All entries in the
 /content/news directory will be displayed on the home page. Like all Wintersmith
 content, these can be in the form of json or markdown files.
 
+## Requirements
+
+To build the site requires Wintersmith and Sass (Ruby Sass to be specific).
+
+After Wintersmith and Sass are installed properly, run npm install at the root
+of the project then `wintersmith build` or `wintersmith preview`.
+
 ## TODO
 
 Add example json and md updates.
