@@ -1,9 +1,6 @@
 // Google Fonts
 @import url(http://fonts.googleapis.com/css?family=Kreon:400,700|Open+Sans);
-//<link href='http://fonts.googleapis.com/css?family=Kreon:400,700|Open+Sans'
-//rel='stylesheet' type='text/css'>
-// font-family: 'Kreon', serif;
-//font-family: 'Open Sans', sans-serif;
+
 
 @import 'colors';
 @import 'github-ribbon';
@@ -58,6 +55,8 @@ header {
     background-position: 50% 50%;
     background-repeat: no-repeat;
   }
+
+
 }
 
 nav {
@@ -155,4 +154,25 @@ footer {
     margin-top: 0;
   }
 
+}
+
+.inrglogo_small {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  background-color: $base05;
+  background-size: 75%;
+  text-align: center;
+  background-image: url('/images/inrglogo_v6.png');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+
+.float-right dd img
+{
+  border: 1px solid #000;
+  width: 100px;
+  height: 100px;
 }
