@@ -1,7 +1,7 @@
 ---
 title: Contributors
 template: page.jade
-navOrder: 3
+navOrder: 4
 ---
 ### Contributors
 
@@ -11,7 +11,7 @@ navOrder: 3
   	<dd>Earned is BS degree in Computer Engineering at UCSC and is now a graduate student at UCSC as well. 
   		SlugCam is his master's thesis research and was the founder of the project.
   		His research interests include wireless sensor networks, computer networking, and embedded systems.
-      Kevin looks forward to the internet of things world with pervasice computing allowing us to sense almost anything we surround ourselves with. 
+      Kevin looks forward to the internet of things world with pervasive computing allowing us to sense and better analyze almost anything we surround ourselves with. 
   	</dd>
   <dt>Leland Miller</dt>
     <dd><img src="" alt=""></dd>

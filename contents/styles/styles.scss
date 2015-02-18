@@ -66,18 +66,23 @@ nav {
   a {
     display: inline-block;
     width: 8em;
-    color: $yellow;
+    color: $base03;
+    font-weight: bold;
     text-decoration: none;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
   }
   a:visited {
-    color: $yellow;
+    color: $base03;
+    font-weight: bold;
   }
   a:hover {
-    color: $yellow;
-    text-decoration: underline;
-    //font-weight: bold;
-    //color: $magenta;
-    //background-color: $cyan;
+    //color: $yellow;
+    //text-decoration: underline;
+    color: $green;
+    background-color: #edf7fc;
   }
 
   .nav-wrapper {
@@ -93,7 +98,7 @@ nav {
     li {
       display: inline-block;
       margin: 0;
-      padding: .2em 0;
+      padding: .3em 0;
       //border-right: 1px solid $yellow;
       //float: left;
     }
@@ -175,4 +180,14 @@ footer {
   border: 1px solid #000;
   width: 100px;
   height: 100px;
+}
+
+#ComputerCover
+{
+  background-image: url('/images/Computer-2014.jpg');
+  background-position: 50% 50%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height:160px;
+  width:130px;
 }
