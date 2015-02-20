@@ -14,7 +14,9 @@ navOrder: 4
       Kevin looks forward to the internet of things world with pervasive computing allowing us to sense and better analyze almost anything we surround ourselves with. 
   	</dd>
   <dt>Leland Miller</dt>
-    <dd><img src="" alt=""></dd>
+    <dd>![Leland Miller](/images/Leland.jpg)</dd>
+    <dd>Currently working toward completion of his BS degree in Computer Science at the University of California, Santa Cruz. Began working on the SlugCam project during the summer of 2014 while participating in the SURF-IT research program in which he began working on the server software supporting the SlugCam system. Continued working of the project since and is now working on implementing an ad hoc networking mode for the system as a part of his senior thesis.</dt>
+
   <dt>Caio Porto</dt>
     <dd style="text-align:left;">
       <img id="caio"></img>
