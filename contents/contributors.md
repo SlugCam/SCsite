@@ -16,7 +16,9 @@ navOrder: 4
   <dt>Leland Miller</dt>
     <dd><img src="" alt=""></dd>
   <dt>Caio Porto</dt>
-    <dd>![Caio Porto](/images/Caio.jpg)</dd>
+    <dd style="text-align:left;">
+      <img id="caio"></img>
+    </dd>  
   	<dd>Earned His B.Eng. in Electronics and Computer Engineering at Universidade Federal do Rio de Janeiro, Brazil. He studied Software Engineering abroad at Fairfield University for one academic year.
 		His research interests are Embedded Software, Autonomous Vehicles and Robotics. He had the opportunity to work on the SlugCam project during the 2013 summer, developing an embedded software to process images.
   <dt>Guilherme Silva</dt>

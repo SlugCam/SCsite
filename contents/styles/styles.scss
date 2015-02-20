@@ -4,6 +4,7 @@
 
 @import 'colors';
 @import 'github-ribbon';
+@import 'imageStyles';
 
 a {
   color: $blue;
@@ -69,10 +70,10 @@ nav {
     color: $base03;
     font-weight: bold;
     text-decoration: none;
-    -webkit-transition: background-color 2s ease-out;
-    -moz-transition: background-color 2s ease-out;
-    -o-transition: background-color 2s ease-out;
-    transition: background-color 2s ease-out;
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
   }
   a:visited {
     color: $base03;
@@ -180,19 +181,5 @@ footer {
   border: 1px solid #000;
   width: 100px;
   height: 100px;
-}
-
-.caio{
-  width: 120px;
-}
-
-#ComputerCover
-{
-  background-image: url('/images/Computer-2014.jpg');
-  background-position: 50% 50%;
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  height:160px;
-  width:130px;
 }
 
