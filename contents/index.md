@@ -22,9 +22,5 @@ undergraduates of UCSC have also made separate contributions. Please meet the te
 
 SlugCam is currently being developed in the [i-NRG lab](http://inrg.cse.ucsc.edu/inrgwiki) at the University of California, Santa Cruz. Our goal is to design smarter video sensor networks for numerous outdoor applications. Environmental and wildlife monitoring is another area we believe our devices would be of help and we seek to taylor to those applications in the near future as well!
 
-___
-<br>
-<br>
-<br>
 
 

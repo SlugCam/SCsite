@@ -1,7 +1,6 @@
 // Google Fonts
 @import url(http://fonts.googleapis.com/css?family=Kreon:400,700|Open+Sans);
-@import url(http://fonts.googleapis.com/css?family=Vollkorn:400,700|Open+Sans);
-@import url(http://fonts.googleapis.com/css?family=Arvo:400,700|Open+Sans);
+
 
 @import 'colors';
 @import 'github-ribbon';
@@ -141,11 +140,11 @@ footer {
 
   .title {
     font-weight: bold;
-    font-family: 'Vollkorn', serif;
+    font-family: 'Kreon', serif;
   }
   date {
     font-style: italic;
-    color: #fbaa10;
+    color: $base03;
     font-size: .85em;
   }
   &:first-child {
@@ -159,7 +158,6 @@ footer {
   margin-left: 2em;
   p {
     margin-top: 0;
-    font-family: 'Arvo', serif;
   }
 
 }
