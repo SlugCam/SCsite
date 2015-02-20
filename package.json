@@ -1,0 +1,18 @@
+{
+  "name": "SCsite",
+  "version": "1.0.0",
+  "description": "The official SlugCam project website.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SlugCam/SCsite"
+  },
+  "bugs": {
+    "url": "https://github.com/SlugCam/SCsite/issues"
+  },
+  "homepage": "https://github.com/SlugCam/SCsite",
+  "dependencies": {
+    "moment": "^2.9.0",
+    "underscore": "^1.8.0",
+    "wintersmith-sass": "^0.3.0"
+  }
+}
