@@ -26,5 +26,6 @@ navOrder: 4
   <dt>Guilherme Silva</dt>
     <dd><img src="" alt=""></dd>
   <dt>John Rinehart</dt>
-    <dd><img src="" alt=""></dd>
+    <dd>![John Rinehart](/images/John.jpg)</dd>
+    <dd>Currently working toward completion of his BS degree in Information Systems at Universidade Presbiteriana Mackenzie, São Paulo - Brazil. Began working on the Computer Vision part of the SlugCam project during the summer of 2014 at the end of his Ciencias Sem Fronteiras program. Enthusiastic about smart homes, automation and the Quantified Self concept.</dd>
 </dl>
