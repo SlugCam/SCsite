@@ -1,5 +1,5 @@
 ---
-title: Wiki
+title: Overview
 template: page.jade
 navOrder: 3
 ---
