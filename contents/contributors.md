@@ -24,8 +24,11 @@ navOrder: 4
   	<dd>Earned His B.Eng. in Electronics and Computer Engineering at Universidade Federal do Rio de Janeiro, Brazil. He studied Software Engineering abroad at Fairfield University for one academic year.
 		His research interests are Embedded Software, Autonomous Vehicles and Robotics. He had the opportunity to work on the SlugCam project during the 2013 summer, developing an embedded software to process images.
   <dt>Guilherme Silva</dt>
-    <dd><img src="" alt=""></dd>
-  <dt>John Rinehart</dt>
-    <dd>![John Rinehart](/images/John.jpg)</dd>
+   <dd style="text-align:left;">
+      <img id="Guilherme"></dd>
+    <dd>Currently working toward completion of his BS degree in Electrical Engineering at University of São Paulo São Carlos, São Paulo - Brazil. He made major contributions on the hardware part of the SlugCam project during the summer of 2014 at the end of his Ciencias Sem Fronteiras program. He is very interested about solar energy, automation and others renewable energy sources.</dd>
+  <dt> John Rinehart</dt>
+    <dd style="text-align:left;">
+      <img id="John"></dd>
     <dd>Currently working toward completion of his BS degree in Information Systems at Universidade Presbiteriana Mackenzie, São Paulo - Brazil. Began working on the Computer Vision part of the SlugCam project during the summer of 2014 at the end of his Ciencias Sem Fronteiras program. Enthusiastic about smart homes, automation and the Quantified Self concept.</dd>
 </dl>

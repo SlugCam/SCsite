@@ -17,7 +17,7 @@ video sensing gave us the best data set to detect events, so our device makes us
 vision software to detect anomalies. 
 
 Although SlugCam's initial research and design was intended to be part of Kevin Abas' master thesis, other interns and
-undergraduates of UCSC have also made separate contributions. Please meet the team in the "Contributors" section of this website. 
+undergraduates of UCSC have also made separate contributions. Leland Miller, and undergraduate researcher, made large contributions to the wireless firmware development. Caio Port completed his bachelor of science by writing his thesis on the computer vision contributions he made to SlugCam and is now a graduate student at UCSC. Please meet the rest of the teammates and contributors in the "Contributors" section of this website. 
 
 
 SlugCam is currently being developed in the [i-NRG lab](http://inrg.cse.ucsc.edu/inrgwiki) at the University of California, Santa Cruz. Our goal is to design smarter video sensor networks for numerous outdoor applications. Environmental and wildlife monitoring is another area we believe our devices would be of help and we seek to taylor to those applications in the near future as well!
